@@ -19,7 +19,8 @@ ls'''
         stage('dock') {
           steps {
             sh '''date
-cal'''
+'''
+            sh 'date'
           }
         }
 
